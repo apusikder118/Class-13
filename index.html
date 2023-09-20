@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html</title>
-</head>
+<html>
 <body>
-  <button onclick="Clickme()">Click Me</button>
+<h1>DOM Practice</h1>
+<h2>The blur Event and focus Event </h2>
+<h2>Login</h2>
 
-  <button onclick="Problem()">Click Know The Problem</button>
-  
-  
-  <script src="index.js"></script>
-  
+<form>
+
+    Enter your name: <input type="text" id="fname" onblur="blurfun(blurfun())" onfocus="focusfun(this)">
+<br><br>
+    Enter your password: <input type="text" id="fname" onblur="blurfun(this)" onfocus="focusfun(this)">
+
+</form>
+
+<script src="index.js"></script>
+
 </body>
 </html>
